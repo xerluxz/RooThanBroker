@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap" rel="stylesheet">    <title>RooThanBroker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="app">
+    <header>
+        <h1>RooThanBroker — Check your Broker</h1>
+        <p>Search for credits review and more about brokers on <b>RooThanBroker</b></p>
+    </header>
+
+
+    <main class="fade-up">
+
+        <div class="chat-section fade-up">
+            <section class="chat-section">
+                <h2>Chat with AI (Demo)</h2>
+                <div id="chatBox" class="chat-box"></div>
+                <div class="chat-input">
+                    <input id="chatInput" placeholder="Ask about your Broker..." />
+                    <button id="chatSend">Send</button>
+                </div>
+            </section>
+        </div>
+
+        <hr>
+        
+        <div class="search-bar">
+            <input id="searchInput" placeholder="Sreach your Broker..." />
+            <select id="categorySelect">
+            <option value="all">All</option>
+            <option value="forex">Forex</option>
+            <option value="crypto">Crypto</option>
+            <option value="stocks">Stocks</option>
+            <option value="stocks">Gold</option>        
+        </select>
+        <button id="searchBtn">Search</Search></button>
+        </div>
+
+        <section class="broker-list fade-up">
+            <div id="brokerDetail" class="broker-detail hidden"></div>
+            <div id="brokerList" class="broker-list"></div>
+        </section>
+
+        </main>
+
+        <footer>
+            <p>© 2025 RooThanBroker Prototype</p>
+        </footer>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
