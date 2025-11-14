@@ -68,13 +68,13 @@ main {
 }
 
 #searchInput {
-    background: #222;
+    background: #38363D;
     color: #ccc;
     border-radius: 30px;
 }
 
 #categorySelect {
-    background: #222;
+    background: #38363D;
     color: #ccc;
     border-radius: 30px;
 }
@@ -138,7 +138,7 @@ button:active {
 }
 
 .broker-card {
-    background: #222;
+    background: #38363D;
     color: #ccc;
     padding: 1.5em;
     border-radius: 10px;
@@ -180,7 +180,7 @@ button:active {
     border-radius: 10px;
     margin: 3em;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.481);
-    background: #222 ;
+    background: #38363D ;
     color: #ccc;
     transform: translateY(20px);
     transition: opacity 0.5s ease, transform 0.5s ease;
@@ -210,7 +210,9 @@ button:active {
 }
 
 .chat-section {
-    margin: 2em;
+    margin-top: 0px;
+    margin-right: 2em;
+    margin-left: 2em;
     color: #ccc;
     padding: 1em;
     border-radius: 10px;
@@ -219,7 +221,7 @@ button:active {
 .chat-box {
     height: 220px;
     overflow-y: auto;
-    background: #222 ;
+    background: #38363D ;
     color: #ccc;
     border-radius: 8px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.419);
@@ -247,7 +249,7 @@ button:active {
 }
 
 #chatInput {
-    background: #222 ;
+    background: #38363D ;
     color: #ccc;
     border-radius: 30px;
     padding-left: 10px;
