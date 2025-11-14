@@ -31,6 +31,9 @@ body {
 header {
     text-align: center;
     background-image: Url('bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     padding: 5em 1em;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
