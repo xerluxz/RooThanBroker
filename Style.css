@@ -266,3 +266,122 @@ footer {
     color: #777;
     font-size: 0.9rem;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 3em 1em;
+    }
+    
+    h1 {
+        font-size: 1.4rem;
+    }
+    
+    header p {
+        font-size: 0.9rem;
+    }
+    
+    main {
+        margin: 1em auto;
+        padding: 0.5em;
+    }
+    
+    .search-bar {
+        flex-direction: column;
+        margin: 1em;
+        gap: 8px;
+    }
+    
+    .search-bar input,
+    .search-bar select {
+        width: 100%;
+        padding: 12px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+    
+    .broker-list {
+        gap: 1em;
+        margin: 1em;
+    }
+    
+    .broker-card {
+        padding: 1em;
+    }
+    
+    .broker-header {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px;
+        gap: 10px;
+    }
+    
+    .broker-score {
+        font-size: 1.8rem;
+        align-self: flex-end;
+    }
+    
+    .name {
+        font-size: 1.1rem;
+    }
+    
+    .broker-detail {
+        margin: 1em;
+        padding: 1em;
+    }
+    
+    .chat-section {
+        margin: 1em;
+        padding: 0.5em;
+    }
+    
+    .chat-box {
+        height: 180px;
+    }
+    
+    #chatInput {
+        width: 92%;
+        padding: 10px;
+    }
+    
+    .chat-input {
+        flex-direction: column;
+    }
+    
+    .chat-input button {
+        width: 100%;
+    }
+
+    #searchInput {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    
+    header p {
+        font-size: 0.85rem;
+    }
+    
+    .broker-header {
+        margin: 5px;
+    }
+    
+    .name {
+        font-size: 1rem;
+    }
+    
+    .broker-score {
+        font-size: 1.5rem;
+    }
+    
+    .chat-box {
+        height: 150px;
+    }
+}
